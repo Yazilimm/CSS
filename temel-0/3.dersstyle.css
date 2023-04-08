@@ -1,0 +1,9 @@
+.box{
+    width:500px;
+    height:100px;
+    background-color: crimson;
+    padding: 10px 50px;
+    border-style: dashed;
+    border-left: 10px solid black;
+    
+}

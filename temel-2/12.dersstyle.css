@@ -1,0 +1,27 @@
+.transition{
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    background-color: goldenrod;
+    color: black;
+    transition: width 2s, height 1s;
+}
+.transition:hover{
+    width:600px;
+    height: 600px;
+}
+.tr{
+    transition-timing-function: linear;
+}
+.tr2{
+    transition-timing-function: ease;
+}
+.tr3{
+    transition-timing-function: ease-in;
+}
+.tr4{
+    transition-timing-function: ease-out;
+}
+.tr5{
+    transition-timing-function: ease-in-out;
+}

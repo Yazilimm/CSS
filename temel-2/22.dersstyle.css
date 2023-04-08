@@ -1,0 +1,14 @@
+.flex-container{
+    width: 90%;
+    height: 400px;
+    background-color: darkseagreen;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row-reverse;
+}
+.item{
+    background-color: rgba(255,255,255,0.8);
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+}

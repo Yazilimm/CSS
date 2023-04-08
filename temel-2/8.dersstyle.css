@@ -1,0 +1,24 @@
+.shadow{
+    position: relative;
+    width:450px;
+    height: auto;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    padding:15px;
+}
+.shadow img{
+    width:100%;
+    border:1px solid white;
+    border-style:  inset;
+}
+.shadow::after{
+    content:"";
+    position: absolute;
+    z-index: -1;
+    width: 80%;
+    left: 12%;
+    height: 100px;
+    bottom:0;
+    box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+}

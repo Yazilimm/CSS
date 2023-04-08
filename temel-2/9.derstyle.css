@@ -1,0 +1,27 @@
+.text{
+    width:180px;
+    border: 1px solid black;
+    overflow:hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+.text2{
+    width:180px;
+    border: 1px solid black;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text2{
+    width:180px;
+    border: 1px solid black;
+    overflow:hidden;
+    word-wrap: break-word;
+}
+.text3{
+    width:180px;
+    border: 1px solid black;
+    overflow:hidden;
+    word-break: keep-all;
+    /*word-break: break-all;*/
+}

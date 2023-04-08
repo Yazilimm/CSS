@@ -1,0 +1,25 @@
+.btn{
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+    padding: 15px 30px; 
+    text-align: center;
+    margin: 4px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-danger {
+    background-color:darkred;
+}
+.btn-success {
+    background-color:darkgreen;
+}
+.btn-warning {
+    background-color:darkkhaki;
+}
+.btn-info {
+    background-color:darkcyan;
+}
+.btn-primary {
+    background-color:darkblue;
+}

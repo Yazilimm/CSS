@@ -1,0 +1,15 @@
+div#test{
+    color: red;
+}
+div.test{
+    color:blue;
+}
+[class="test"]{
+    background-color:salmon;
+}
+[class$="test"]{
+    background-color:goldenrod;
+}
+[class^="test"]{
+    background-color:seagreen;
+}

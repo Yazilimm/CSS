@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style-type: none;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    background-color:darkred;
+}
+.card img{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+    transition: 300ms all;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    bottom: -60%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 60px;
+    transition: 300ms all;  
+}
+.overlay-text h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.overlay-text p{
+    font-size: 18px;
+}
+.overlay-text a{
+    display: block;
+    width:150px;
+    height:50px;
+    background-color:blue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    margin-top: 70px;
+    transition: 300ms all;
+}
+.overlay-text a:hover{
+    background-color: crimson;
+}
+.card:hover .overlay{
+    bottom: -50%;
+}
+.card:hover .overlay-text a{
+    margin-top:30px;
+}
+.card:hover img{
+    transform: scale(1.2) translate(-20px);
+    opacity: 0.7;
+}

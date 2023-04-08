@@ -1,0 +1,19 @@
+/* div[class|="box"]{
+    background-color: yellow;
+}*//* 1.v2.divi secer */
+
+/* div[class^="box"]{
+    background-color:yellow;
+} */ /* ,2,3. div secilir*/
+
+/* div[class$="box"]{
+    background-color: yellow;
+} */ /*4. div secilir */
+
+/* div[class*="box"]{
+    background-color: yellow;
+}*/ /*icinde box olan her sey secilir. buyuk kucuk harf duyarliligi var */
+
+div[class*="box" i]{
+    background-color: yellow;
+} /* icinde box olan her sey secilir. buyuk kucuk harf duyarliligi yok*/

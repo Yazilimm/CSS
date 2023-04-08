@@ -1,0 +1,37 @@
+body{
+    display: flex ;
+    justify-content: flex-start;
+}
+.back{
+    background:url(https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/what-is-coding.png) no-repeat;
+    padding: 15px;
+    border: 4px dotted red;
+    width:50%;
+    background-origin: padding-box ;
+    
+}
+.back h3,p{
+    color:white;
+}
+.back2{
+    background:url(https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/what-is-coding.png) no-repeat;
+    padding: 15px;
+    border: 4px dotted red;
+    width:50%;    
+    background-origin: border-box ;
+    
+}
+.back2 h3,p{
+    color:white;
+}
+.back3{
+    background:url(https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/what-is-coding.png) no-repeat;
+    padding: 15px;
+    border: 4px dotted red;
+    width:50%;    
+    background-origin: content-box ;
+    
+}
+.back3 h3,p{
+    color:white;
+}

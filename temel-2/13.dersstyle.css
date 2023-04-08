@@ -1,0 +1,35 @@
+/*.transition{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    background: darkmagenta;
+    color:bisque;
+    transition: all is ease-in-out;
+}
+.transition:hover{
+    transform: translate(150px,150px);
+}*/
+
+.transition{
+    clear: both;
+    width: 100%;
+    border: none;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    color:black;
+}
+
+.transition div{
+    flex: 1;
+    cursor: pointer;
+    background-color: cadetblue;
+    transition: all 0.5s;
+    padding: 20px;
+    text-align: center;
+}
+.transition div:hover{
+    flex: 1.5;
+    background-color: darkmagenta;
+}

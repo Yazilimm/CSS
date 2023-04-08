@@ -1,0 +1,20 @@
+.rules{
+    margin: 20px;
+    width:100px;
+    height: 100px;
+    background-color: darksalmon;
+    position: relative;
+}
+.rules:hover{
+    animation-name :Renk;
+    animation-duration :4s;
+}
+@keyframes Renk{
+    /*from { background-color: darkturquoise;}
+    to { background-color: darkslateblue;}*/
+    0% { background-color: darkturquoise; left:0; top:0; }
+    25% { background-color: darkcyan; left:200px; top:0; }
+    50% { background-color: darkblue; left:200px; top:200px; }
+    75% { background-color: darkslategray; left:0; top:200px; }
+    100% { background-color: darkgrey; left:0; top:0; }
+}

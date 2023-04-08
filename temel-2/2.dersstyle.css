@@ -1,0 +1,8 @@
+.borderImg{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTroQoZsBbpxN8TBml_eylczpvWCL_6pY5mRg&usqp=CAU) 20% stretch;
+    /*border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTroQoZsBbpxN8TBml_eylczpvWCL_6pY5mRg&usqp=CAU) 20% round;*/
+    /*border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTroQoZsBbpxN8TBml_eylczpvWCL_6pY5mRg&usqp=CAU) 20% repeat;*/
+    /*border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTroQoZsBbpxN8TBml_eylczpvWCL_6pY5mRg&usqp=CAU) 20% space;*/
+}

@@ -1,0 +1,14 @@
+.setting{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.small{
+    border: 2px solid #333;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.big{
+    border: 2px solid darkolivegreen;
+    box-sizing: border-box;
+}

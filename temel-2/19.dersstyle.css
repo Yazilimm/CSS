@@ -1,0 +1,21 @@
+.breadcrumb{
+    padding: 8px 16px;
+    list-style-type: none;
+    background-color: darkcyan;
+
+}
+.breadcrumb li{
+    display: inline;
+}
+.breadcrumb li a{
+    color:darkmagenta;
+}
+.breadcrumb li a:hover{
+    color:darkgreen;
+    text-decoration: underline;
+}
+.breadcrumb li+li::before{
+    content: "/\00a0";
+    color:white;
+    padding:8px;
+}

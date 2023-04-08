@@ -1,0 +1,44 @@
+li{
+    
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+
+body{
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+nav{
+    background-color: purple;
+    width: 300px;
+    padding:30px;
+    padding-left: 0;
+}   
+nav ul li{
+    border-bottom:1px solid white;
+    padding:15px; 
+    cursor: pointer; 
+    transition: 300ms all;         
+}
+nav ul li a {
+   color:white;
+   font-size:16px;
+   
+     
+}
+nav ul li  span{
+    float:right;
+    color:white;
+}
+nav ul li:hover{
+    background-color:darkcyan;
+    padding:20px 30px;
+    
+}
+nav ul li:last-child{
+    border:none;
+}

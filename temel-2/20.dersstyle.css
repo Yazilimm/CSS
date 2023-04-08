@@ -1,0 +1,9 @@
+.userface{
+    border: 9px solid black;
+    width: 25%;
+    padding:20px;
+    resize: horizontal;
+    overflow: auto;
+    height: 100px;
+    outline: 9px solid darkred;
+}

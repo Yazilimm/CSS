@@ -1,0 +1,27 @@
+.p{
+    width: 600px;
+    height: 700px;
+    position: relative;
+    background-color: violet;
+}
+
+
+
+.box{
+    background-color: tomato;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    color : white;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 4;
+    
+}
+.box:last-child{
+    background-color: blue;
+    bottom: 100px;
+    right: 100px;
+    z-index: 3;
+}

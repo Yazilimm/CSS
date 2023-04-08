@@ -1,0 +1,24 @@
+.corner{
+    border-radius: 10px;
+    background: #900;
+    padding: 20px;
+    width: 400px;
+    height: 60px;
+    color: white;
+}
+.corner2{
+    border-radius: 20px;
+    background:url(https://media.tenor.com/images/649666b11f5cb74fbba943ec8e780cae/tenor.gif);
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    color: white;
+}
+.corner3{
+    border-radius: 30px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 400px;
+    height: 60px;
+    color: black;
+}

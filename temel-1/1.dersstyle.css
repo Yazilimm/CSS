@@ -1,0 +1,15 @@
+/* p b{
+    color:blue;
+}
+
+p em {
+    color:red;
+} */ /* butun  b em etikleri secilir*/
+
+p > b{
+    color: blue;
+}
+
+p > em {
+    color: red;
+}

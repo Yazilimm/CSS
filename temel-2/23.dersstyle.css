@@ -1,0 +1,28 @@
+.container {
+    overflow: auto;
+}
+.main{
+    margin-left: 5px;
+}
+.sidebar {
+    float: none;
+    width: auto;
+}
+.menu{
+    margin: 0;
+    padding:0;
+}
+.item {
+    background-color: darkred;
+    border: 1px solid black;
+    border-radius:3px;
+    list-style-type: none;
+    margin: 5px;
+    padding:4px;
+}
+@media screen and ( max-width: 480px) {
+   .sidebar {
+       float: left;
+       width:250px;
+   }
+}
